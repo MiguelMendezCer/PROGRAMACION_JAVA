@@ -1,5 +1,5 @@
 import java.util.Scanner;
- public class coca{
+    public class coca{
     public static void main(String args[]){
         Scanner teclado = new Scanner(System.in);
         String nombre = "";
@@ -18,7 +18,6 @@ import java.util.Scanner;
         clave = teclado.nextInt();
         System.out.println("Ahora ingresa la antiguedad que tenga el empleado");
         antiguedad = teclado.nextInt();
-     
         if (clave == 1 && antiguedad == 1){
             System.out.println(nombre + " Tiene derecho a 6 dias de vacaciones");
         }else if (clave == 1 && antiguedad <=6){
